@@ -16,7 +16,8 @@ const times = process.env.TIMES || 5
 const { Pool } = require('pg');
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
-  ssl: true
+  //ssl: true
+  ssl: { rejectUnauthorized: false }
 });
 
 express()
@@ -24,7 +25,7 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
-  
+
   .get('/times', (req, res) => res.send(countHitsuji())) // ←追記
 
   .get('/env', (req, res) => res.send(process.env.NAME))
