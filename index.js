@@ -12,6 +12,7 @@
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
+const times = process.env.TIMES || 5
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
@@ -19,6 +20,7 @@ express()
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
   .get('/times', (req, res) => res.send(countHitsuji())) // ←追記
+  .get('/env', (req, res) => res.send(process.env.NAME))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
   // ↓追記：countHitsuji()
