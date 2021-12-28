@@ -16,8 +16,12 @@ const times = process.env.TIMES || 5
 const { Pool } = require('pg');
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
-  //ssl: true
-  ssl: { rejectUnauthorized: false }
+  // ssl: true,
+  ssl: { rejectUnauthorized: false },
+  ssl: { 
+    sslmode: 'require',
+    rejectUnauthorized: false
+  }
 });
 
 express()
