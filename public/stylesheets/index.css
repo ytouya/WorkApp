@@ -11,9 +11,9 @@ body {
     background-color: #350d36;             /* 背景色 */
 }
 
-@media screen and (min-width: 640px){
+@media print, screen and (min-width: 640px){
     .white_box {
-        width: 90%;                              /* 横幅 */
+        width: 70%;                              /* 横幅 */
         height: 160vh;                           /* 高さ */
         margin: 0 auto;                          /* 外側に余白の指定 */
         background-color: #ffffff;             /* 背景色 */
@@ -119,7 +119,7 @@ body {
 
 @media screen and (max-width: 640px){
     .white_box {
-        width: 90%;                              /* 横幅 */
+        width: 100%;                              /* 横幅 */
         height: 160vh;                           /* 高さ */
         margin: 0 auto;                          /* 外側に余白の指定 */
         background-color: #ffffff;             /* 背景色 */
@@ -127,7 +127,7 @@ body {
     
     .white_box li {
         margin-left: 5px;                        /* 左に5px 外側に余白の指定 */
-        font-size: 20px;                         /* フォントサイズ24px */
+        font-size: 10px;                         /* フォントサイズ24px */
         font-weight: bold;                       /* 太字にする */
     }
     
@@ -144,9 +144,9 @@ body {
     }
     
     .work_zero_box img {
-        margin: 60px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
-        width: 300px;                             /* 横幅 */
-        height: 200px;                           /* 高さ */
+        margin: 30px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+        width: 150px;                             /* 横幅 */
+        height: 100px;                           /* 高さ */
     }
     
     .work_zero {
@@ -174,9 +174,9 @@ body {
     }
     
     .work_first_box img {
-        margin: 70px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
-        width: 300px;                             /* 横幅 */
-        height: 200px;                           /* 高さ */
+        margin: 30px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+        width: 150px;                             /* 横幅 */
+        height: 100px;                           /* 高さ */
     }
     
     .work_first {
@@ -204,9 +204,9 @@ body {
     }
     
     .work_second_box img {
-        margin: 70px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
-        width: 300px;                             /* 横幅 */
-        height: 200px;                           /* 高さ */
+        margin: 30px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+        width: 150px;                             /* 横幅 */
+        height: 100px;                           /* 高さ */
     }
     
     .work_second {
