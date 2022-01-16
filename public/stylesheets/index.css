@@ -119,7 +119,7 @@ body {
 
 @media screen and (max-width: 640px){
     .white_box {
-        width: 70%;                              /* 横幅 */
+        width: 90%;                              /* 横幅 */
         height: 160vh;                           /* 高さ */
         margin: 0 auto;                          /* 外側に余白の指定 */
         background-color: #ffffff;             /* 背景色 */
