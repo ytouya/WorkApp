@@ -117,7 +117,7 @@ body {
     
 }
 
-@media screen and (min-width: 640px){
+@media screen and (max-width: 640px){
     .white_box {
         width: 70%;                              /* 横幅 */
         height: 160vh;                           /* 高さ */
