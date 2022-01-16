@@ -157,7 +157,7 @@ body {
     }
     
     .work_zero p {
-        font-size: 8px;
+        font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
         height: 80px;                           /* 高さ */
@@ -189,7 +189,7 @@ body {
     }
     
     .work_first p {
-        font-size: 8px;
+        font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
         height: 100px;                           /* 高さ */
@@ -221,7 +221,7 @@ body {
     }
     
     .work_second p {
-        font-size: 8px;
+        font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
         height: 100px;                           /* 高さ */
