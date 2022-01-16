@@ -140,6 +140,7 @@ body {
         width: auto;
         
         display: flex;                           /* 横並びにする */
+        flex-direction:column;                   /* 縦方向にする */
     }
     
     .work_zero_box h4 {
@@ -170,7 +171,6 @@ body {
     
     .work_first_box{
         width: auto;
-        height: 100px;
         display: flex;                           /* 横並びにする */
     }
     
