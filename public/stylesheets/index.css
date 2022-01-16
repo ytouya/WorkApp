@@ -125,7 +125,6 @@ body {
         width: 90%;                              /* 横幅 */
         height: 100%;                           /* 高さ */
         margin: 0 auto;                          /* 外側に余白の指定 */
-        padding-top: 10vh;
         background-color: #ffffff;             /* 背景色 */
     }
     
