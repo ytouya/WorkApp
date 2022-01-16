@@ -155,7 +155,6 @@ body {
     
     .work_zero {
         width: 100%;                             /* 横幅 */
-        height: 100px;
         display: flex;                           /* 横並びにする */
         flex-direction:column;                   /* 縦方向にする */
     }
@@ -164,7 +163,7 @@ body {
         font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
-        height: 80px;                           /* 高さ */
+        height: 70px;                           /* 高さ */
     }
     
     /* work_first */
@@ -188,7 +187,6 @@ body {
     
     .work_first {
         width: 100%;                             /* 横幅 */
-        height: 100px;
         display: flex;                           /* 横並びにする */
         flex-direction:column;                   /* 縦方向にする */
     }
@@ -197,7 +195,7 @@ body {
         font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
-        height: 100px;                           /* 高さ */
+        height: 70px;                           /* 高さ */
     }
     
     /* work_second */
@@ -221,7 +219,6 @@ body {
     
     .work_second {
         width: 100%;                             /* 横幅 */
-        height: 100px;
         display: flex;                           /* 横並びにする */
         flex-direction:column;                   /* 縦方向にする */
     }
@@ -230,7 +227,7 @@ body {
         font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
-        height: 100px;                           /* 高さ */
+        height: 70px;                           /* 高さ */
     }
     
 }
