@@ -125,6 +125,8 @@ body {
         width: 90%;                              /* 横幅 */
         height: 100%;                           /* 高さ */
         margin: 0 auto;                          /* 外側に余白の指定 */
+        padding-top: 20px;
+        padding-bottom: 20px;
         background-color: #ffffff;             /* 背景色 */
     }
     
@@ -138,7 +140,7 @@ body {
     
     .work_zero_box{
         width: auto;
-        
+        margin: 20px 0px;
         display: flex;                           /* 横並びにする */
     }
     
@@ -170,6 +172,7 @@ body {
     
     .work_first_box{
         width: auto;
+        margin: 20px 0px;
         display: flex;                           /* 横並びにする */
     }
     
@@ -202,7 +205,7 @@ body {
     
     .work_second_box{
         width: auto;
-        
+        margin: 20px 0px;
         display: flex;                           /* 横並びにする */
     }
     
