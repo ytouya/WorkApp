@@ -1,0 +1,112 @@
+* {
+    padding: 0;                              /* 内側に余白の指定 */
+    margin: 0;                               /* 外側に余白の指定 */
+}
+
+html {
+    font-size: 16px;                         /* フォントサイズ20px */
+}
+
+body {
+    background-color: #350d36;             /* 背景色 */
+}
+
+.white_box {
+    width: 80%;                              /* 横幅 */
+    height: 160vh;                           /* 高さ */
+    margin: 0 auto;                          /* 外側に余白の指定 */
+    background-color: #ffffff;             /* 背景色 */
+}
+
+.white_box li {
+    margin-left: 5px;                        /* 左に5px 外側に余白の指定 */
+    font-size: 24px;                         /* フォントサイズ24px */
+    font-weight: bold;                       /* 太字にする */
+}
+
+/* work_zero */
+
+.work_zero_box{
+    padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
+    display: flex;                           /* 横並びにする */
+}
+
+.work_zero_box h4 {
+    margin-left: 10px;                       /* 左に10px 外側に余白の指定 */
+}
+
+.work_zero_box img {
+    margin: 60px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+    width: auto;                             /* 横幅 */
+    height: 250px;                           /* 高さ */
+}
+
+.work_zero {
+    width: 100%;                             /* 横幅 */
+    display: flex;                           /* 横並びにする */
+    flex-direction:column;                   /* 縦方向にする */
+}
+
+.work_zero p {
+    padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
+    width: 100%;                             /* 横幅 */
+    height: 80px;                           /* 高さ */
+}
+
+/* work_first */
+
+.work_first_box{
+    padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
+    display: flex;                           /* 横並びにする */
+}
+
+.work_first_box h4 {
+    margin-left: 10px;                       /* 左に10px 外側に余白の指定 */
+}
+
+.work_first_box img {
+    margin: 70px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+    width: auto;                             /* 横幅 */
+    height: 250px;                           /* 高さ */
+}
+
+.work_first {
+    width: 100%;                             /* 横幅 */
+    display: flex;                           /* 横並びにする */
+    flex-direction:column;                   /* 縦方向にする */
+}
+
+.work_first p {
+    padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
+    width: 100%;                             /* 横幅 */
+    height: 100px;                           /* 高さ */
+}
+
+/* work_second */
+
+.work_second_box{
+    padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
+    display: flex;                           /* 横並びにする */
+}
+
+.work_second_box h4 {
+    margin-left: 10px;                       /* 左に10px 外側に余白の指定 */
+}
+
+.work_second_box img {
+    margin: 70px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+    width: auto;                             /* 横幅 */
+    height: 250px;                           /* 高さ */
+}
+
+.work_second {
+    width: 100%;                             /* 横幅 */
+    display: flex;                           /* 横並びにする */
+    flex-direction:column;                   /* 縦方向にする */
+}
+
+.work_second p {
+    padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
+    width: 100%;                             /* 横幅 */
+    height: 100px;                           /* 高さ */
+}
