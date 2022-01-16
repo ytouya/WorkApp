@@ -12,7 +12,7 @@ body {
 }
 
 .white_box {
-    width: 80%;                              /* 横幅 */
+    width: 90%;                              /* 横幅 */
     height: 160vh;                           /* 高さ */
     margin: 0 auto;                          /* 外側に余白の指定 */
     background-color: #ffffff;             /* 背景色 */
@@ -20,7 +20,7 @@ body {
 
 .white_box li {
     margin-left: 5px;                        /* 左に5px 外側に余白の指定 */
-    font-size: 24px;                         /* フォントサイズ24px */
+    font-size: 20px;                         /* フォントサイズ24px */
     font-weight: bold;                       /* 太字にする */
 }
 
@@ -37,7 +37,7 @@ body {
 
 .work_zero_box img {
     margin: 60px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
-    width: auto;                             /* 横幅 */
+    width: 300px;                             /* 横幅 */
     height: 200px;                           /* 高さ */
 }
 
@@ -66,7 +66,7 @@ body {
 
 .work_first_box img {
     margin: 70px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
-    width: auto;                             /* 横幅 */
+    width: 300px;                             /* 横幅 */
     height: 200px;                           /* 高さ */
 }
 
@@ -95,7 +95,7 @@ body {
 
 .work_second_box img {
     margin: 70px 10px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
-    width: auto;                             /* 横幅 */
+    width: 300px;                             /* 横幅 */
     height: 200px;                           /* 高さ */
 }
 
