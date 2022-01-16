@@ -135,7 +135,7 @@ body {
     
     .work_zero_box{
         width: auto;
-        padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
+        
         display: flex;                           /* 横並びにする */
     }
     
@@ -167,7 +167,7 @@ body {
     
     .work_first_box{
         width: auto;
-        padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
+        
         display: flex;                           /* 横並びにする */
     }
     
@@ -199,7 +199,7 @@ body {
     
     .work_second_box{
         width: auto;
-        padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
+        
         display: flex;                           /* 横並びにする */
     }
     
