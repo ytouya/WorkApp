@@ -163,7 +163,7 @@ body {
         font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
-        height: 70px;                           /* 高さ */
+        height: 40px;                           /* 高さ */
     }
     
     /* work_first */
@@ -195,7 +195,7 @@ body {
         font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
-        height: 70px;                           /* 高さ */
+        height: 40px;                           /* 高さ */
     }
     
     /* work_second */
@@ -227,7 +227,7 @@ body {
         font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
-        height: 70px;                           /* 高さ */
+        height: 40px;                           /* 高さ */
     }
     
 }
