@@ -140,7 +140,6 @@ body {
         width: auto;
         
         display: flex;                           /* 横並びにする */
-        flex-direction:column;                   /* 縦方向にする */
     }
     
     .work_zero_box h4 {
@@ -156,6 +155,7 @@ body {
     
     .work_zero {
         width: 100%;                             /* 横幅 */
+        height: 100px;
         display: flex;                           /* 横並びにする */
         flex-direction:column;                   /* 縦方向にする */
     }
@@ -188,6 +188,7 @@ body {
     
     .work_first {
         width: 100%;                             /* 横幅 */
+        height: 100px;
         display: flex;                           /* 横並びにする */
         flex-direction:column;                   /* 縦方向にする */
     }
@@ -220,6 +221,7 @@ body {
     
     .work_second {
         width: 100%;                             /* 横幅 */
+        height: 100px;
         display: flex;                           /* 横並びにする */
         flex-direction:column;                   /* 縦方向にする */
     }
