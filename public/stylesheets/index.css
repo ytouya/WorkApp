@@ -150,7 +150,7 @@ body {
     }
     
     .work_zero_box img {
-        margin: 70px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+        margin: 50px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
         width: 144px;                             /* 横幅 */
         height: 81px;                           /* 高さ */
     }
@@ -182,7 +182,7 @@ body {
     }
     
     .work_first_box img {
-        margin: 70px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+        margin: 60px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
         width: 144px;                             /* 横幅 */
         height: 81px;                           /* 高さ */
 
@@ -215,7 +215,7 @@ body {
     }
     
     .work_second_box img {
-        margin: 70px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
+        margin: 60px 5px 0px 0px;               /* 上に70px 左に10px 外側に余白の指定 */
         width: 144px;                             /* 横幅 */
         height: 81px;                           /* 高さ */
     }
