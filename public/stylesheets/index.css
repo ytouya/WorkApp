@@ -14,7 +14,7 @@ body {
 @media print, screen and (min-width: 640px){
     .white_box {
         width: 70%;                              /* 横幅 */
-        height: 120vh;                           /* 高さ */
+        height: 160vh;                           /* 高さ */
         margin: 0 auto;                          /* 外側に余白の指定 */
         background-color: #ffffff;             /* 背景色 */
     }
@@ -120,7 +120,7 @@ body {
 @media screen and (max-width: 640px){
     .white_box {
         width: 90%;                              /* 横幅 */
-        height: 140vh;                           /* 高さ */
+        height: 100vh;                           /* 高さ */
         margin: 0 auto;                          /* 外側に余白の指定 */
         background-color: #ffffff;             /* 背景色 */
     }
@@ -157,7 +157,7 @@ body {
     }
     
     .work_zero p {
-        font-size: 7px;
+        font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
         height: 80px;                           /* 高さ */
@@ -189,7 +189,7 @@ body {
     }
     
     .work_first p {
-        font-size: 7px;
+        font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
         height: 100px;                           /* 高さ */
@@ -221,7 +221,7 @@ body {
     }
     
     .work_second p {
-        font-size: 7px;
+        font-size: 5px;
         padding: 0px 10px;                       /* 上下に0px 左右に10px 内側に余白の指定 */
         width: 100%;                             /* 横幅 */
         height: 100px;                           /* 高さ */
