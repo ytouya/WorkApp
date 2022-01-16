@@ -12,7 +12,7 @@ body {
 }
 
 .white_box {
-    width: 90%;                              /* 横幅 */
+    width: 60%;                              /* 横幅 */
     height: 160vh;                           /* 高さ */
     margin: 0 auto;                          /* 外側に余白の指定 */
     background-color: #ffffff;             /* 背景色 */
@@ -27,6 +27,7 @@ body {
 /* work_zero */
 
 .work_zero_box{
+    width: 800px;
     padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
     display: flex;                           /* 横並びにする */
 }
@@ -56,6 +57,7 @@ body {
 /* work_first */
 
 .work_first_box{
+    width: 800px;
     padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
     display: flex;                           /* 横並びにする */
 }
@@ -85,6 +87,7 @@ body {
 /* work_second */
 
 .work_second_box{
+    width: 800px;
     padding: 10px 0px;                       /* 上下に10px 左右に0px 内側に余白の指定 */
     display: flex;                           /* 横並びにする */
 }
